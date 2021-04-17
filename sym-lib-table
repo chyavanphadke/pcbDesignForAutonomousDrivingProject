@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name myComponents)(type Legacy)(uri ${KIPRJMOD}/myComponents/myComponents.lib)(options "")(descr ""))
+  (lib (name MotorTransceiver)(type Legacy)(uri ${KIPRJMOD}/myComponents/MotorTransceiver.lib)(options "")(descr ""))
 )
