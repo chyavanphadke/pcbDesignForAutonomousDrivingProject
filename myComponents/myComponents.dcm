@@ -1,15 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ExternalDAC
-D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
-$ENDCMP
-#
-$CMP MotorTransceiver
-D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
-$ENDCMP
-#
 #End Doc Library
