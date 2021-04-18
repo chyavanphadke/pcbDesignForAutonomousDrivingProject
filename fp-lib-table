@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name pcbDesignForAutonomousDrivingProject)(type KiCad)(uri ${KIPRJMOD}/myFootprints/pcbDesignForAutonomousDrivingProject.pretty)(options "")(descr ""))
+  (lib (name myFootprint)(type KiCad)(uri ${KIPRJMOD}/myFootprint.pretty)(options "")(descr ""))
+)
