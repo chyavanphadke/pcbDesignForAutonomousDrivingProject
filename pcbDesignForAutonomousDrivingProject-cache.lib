@@ -1,6 +1,51 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# myComponents_Encoder
+#
+DEF myComponents_Encoder J 0 40 Y N 1 F N
+F0 "J" -100 300 50 H V C CNN
+F1 "myComponents_Encoder" -100 -200 50 H V C CNN
+F2 "" -100 100 50 H I C CNN
+F3 "" -100 100 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+T 0 50 -100 39 0 0 0 A0 Normal 0 C C
+T 0 50 0 39 0 0 0 D0 Normal 0 C C
+T 0 50 100 39 0 0 0 GND Normal 0 C C
+T 0 50 200 39 0 0 0 VCC Normal 0 C C
+S -150 250 150 -150 0 0 0 N
+S -150 -95 -100 -105 1 1 6 N
+S -150 5 -100 -5 1 1 6 N
+S -150 105 -100 95 1 1 6 N
+S -150 205 -100 195 1 1 6 N
+S -150 250 -50 -150 1 1 10 f
+X VCC 1 -300 200 150 R 50 50 1 1 I
+X GND 2 -300 100 150 R 50 50 1 1 I
+X D0 3 -300 0 150 R 50 50 1 1 I
+X A0 4 -300 -100 150 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # myComponents_SJ2Board
 #
 DEF myComponents_SJ2Board U 0 40 Y Y 1 F N
