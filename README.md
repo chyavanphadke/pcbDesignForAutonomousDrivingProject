@@ -2,4 +2,4 @@
 
 Schematic Diagram
 
-[schematicDiagram.pdf](./pcbDesignForAutonomousDrivingProject/0utputs/schematicDiagram.pdf)
+![alt text](https://github.com/chyavanphadke/pcbDesignForAutonomousDrivingProject/blob/main/0utputs/schematicsDiagramImg.jpg)
