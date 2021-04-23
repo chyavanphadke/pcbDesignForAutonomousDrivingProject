@@ -1,4 +1,4 @@
-19095500358384706
+19098738655352297
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83061,6 +83061,20 @@ Oled
 0
 4
 4
+myFootprint
+WheelEncoder
+
+
+0
+3
+3
+myFootprint
+can
+
+
+0
+6
+6
 myFootprint
 compass
 
