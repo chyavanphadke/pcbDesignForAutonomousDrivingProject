@@ -785,4 +785,44 @@ Wire Wire Line
 	4000 1000 3900 1000
 Wire Wire Line
 	3900 1000 3900 1300
+$Comp
+L myComponents:12vto5v U22
+U 1 1 6083A09C
+P 10300 2200
+F 0 "U22" H 10300 2549 50  0000 C CNN
+F 1 "12vto5v" H 10300 2466 39  0000 C CNN
+F 2 "myFootprint:12vto5v" H 9700 1600 50  0001 C CNN
+F 3 "" H 9700 1600 50  0001 C CNN
+	1    10300 2200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	11150 3550 8450 3550
+Wire Notes Line
+	8450 3550 8450 700 
+Wire Notes Line
+	8450 700  11150 700 
+Wire Notes Line
+	11150 700  11150 3550
+Text Notes 9150 1100 0    118  ~ 24
+Mains 12v to 5v
+Text GLabel 10700 2300 2    39   Input ~ 0
+GND
+Text GLabel 10700 2100 2    39   Input ~ 0
+5v
+$Comp
+L Connector:Jack-DC J2
+U 1 1 60841F9D
+P 9050 2200
+F 0 "J2" H 9107 2525 50  0000 C CNN
+F 1 "Jack-DC" H 9107 2434 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 9100 2160 50  0001 C CNN
+F 3 "~" H 9100 2160 50  0001 C CNN
+	1    9050 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2100 9350 2100
+Wire Wire Line
+	9350 2300 9900 2300
 $EndSCHEMATC

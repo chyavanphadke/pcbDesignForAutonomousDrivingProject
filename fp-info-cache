@@ -1,4 +1,4 @@
-19098738655352297
+19100358264284542
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83033,6 +83033,13 @@ ESP-01
 0
 8
 8
+myFootprint
+12vto5v
+
+
+0
+4
+4
 myFootprint
 DAC
 
