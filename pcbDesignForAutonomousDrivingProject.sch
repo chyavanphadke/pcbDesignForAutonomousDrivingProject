@@ -25,17 +25,6 @@ F 3 "" H 1300 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L myComponents:ultrasonic U5
-U 1 1 607B7CAD
-P 2500 1000
-F 0 "U5" V 2528 1228 50  0000 L CNN
-F 1 "ultrasonic" V 2595 1228 20  0000 L CNN
-F 2 "myFootprint:ultrasonic" H 2000 700 50  0001 C CNN
-F 3 "" H 2000 700 50  0001 C CNN
-	1    2500 1000
-	0    1    1    0   
-$EndComp
-$Comp
 L myComponents:ultrasonic U7
 U 1 1 607B88FD
 P 2500 2400
@@ -79,16 +68,12 @@ F 3 "" H 2000 3500 50  0001 C CNN
 	1    2500 3800
 	0    1    1    0   
 $EndComp
-Text GLabel 2400 1100 0    39   Input ~ 0
-SCL
 Text GLabel 2400 2500 0    39   Input ~ 0
 SCL
 Text GLabel 2400 1800 0    39   Input ~ 0
 SCL
 Text GLabel 2400 3200 0    39   Input ~ 0
 SCL
-Text GLabel 2400 1200 0    39   Input ~ 0
-SDA
 Text GLabel 2400 2600 0    39   Input ~ 0
 SDA
 Text GLabel 2400 1900 0    39   Input ~ 0
@@ -103,18 +88,14 @@ Text GLabel 2400 4000 0    39   Input ~ 0
 SDA
 Text GLabel 800  3800 0    39   Input ~ 0
 SDA
-Text GLabel 2400 900  0    39   Input ~ 0
-3.3v
 Text GLabel 2400 2300 0    39   Input ~ 0
-3.3v
+3.3vUlSo
 Text GLabel 2400 1600 0    39   Input ~ 0
-3.3v
+3.3vUlSo
 Text GLabel 2400 3000 0    39   Input ~ 0
-3.3v
+3.3vUlSo
 Text GLabel 2400 3700 0    39   Input ~ 0
-3.3v
-Text GLabel 2400 1000 0    39   Input ~ 0
-GND
+3.3vUlSo
 Text GLabel 2400 2400 0    39   Input ~ 0
 GND
 Text GLabel 2400 1700 0    39   Input ~ 0
@@ -125,7 +106,6 @@ Text GLabel 2400 3800 0    39   Input ~ 0
 GND
 Text GLabel 1800 2000 2    39   Input ~ 0
 5v
-NoConn ~ 1800 2100
 NoConn ~ 1800 2200
 NoConn ~ 1800 2300
 NoConn ~ 1800 2400
@@ -135,14 +115,12 @@ NoConn ~ 1800 2700
 NoConn ~ 1800 2800
 NoConn ~ 1800 3300
 NoConn ~ 1800 3200
-NoConn ~ 1800 3400
 NoConn ~ 1800 3600
 NoConn ~ 1800 3500
 NoConn ~ 1800 2900
 NoConn ~ 1800 3000
 NoConn ~ 1800 3100
 NoConn ~ 800  3600
-NoConn ~ 800  3500
 NoConn ~ 800  3400
 NoConn ~ 800  3300
 NoConn ~ 800  3200
@@ -189,70 +167,19 @@ $EndComp
 Text GLabel 1850 1300 2    39   Input ~ 0
 canRX
 Text GLabel 1850 1100 2    39   Input ~ 0
-3.3v
+3.3vUlSo
 Text GLabel 1850 1200 2    39   Input ~ 0
 GND
-Wire Notes Line
-	3100 700  3100 4300
 Wire Notes Line
 	3100 4300 600  4300
 Wire Notes Line
 	600  4300 600  700 
-Wire Notes Line
-	600  700  3100 700 
-Text GLabel 4000 800  0    50   Input ~ 0
-3.3v
-Text GLabel 4000 900  0    50   Input ~ 0
-GND
-$Comp
-L Device:R R1
-U 1 1 607F7063
-P 4300 1500
-F 0 "R1" V 4200 1500 50  0000 C CNN
-F 1 "R" V 4300 1500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 4230 1500 50  0001 C CNN
-F 3 "~" H 4300 1500 50  0001 C CNN
-	1    4300 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R C1
-U 1 1 607F7524
-P 3800 1500
-F 0 "C1" V 3700 1500 50  0000 C CNN
-F 1 "C" V 3800 1500 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" V 3730 1500 50  0001 C CNN
-F 3 "~" H 3800 1500 50  0001 C CNN
-	1    3800 1500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4450 1500 4550 1500
-Wire Wire Line
-	4550 1500 4550 1300
-Wire Wire Line
-	4550 1300 3900 1300
-Wire Wire Line
-	4150 1500 4050 1500
-Text GLabel 3650 1500 0    50   Input ~ 0
-GND
-Text GLabel 4050 1650 0    50   Input ~ 0
-outEnc
-Wire Wire Line
-	4050 1650 4050 1500
-Connection ~ 4050 1500
-Wire Wire Line
-	4050 1500 3950 1500
 Text GLabel 4650 3700 2    50   Input ~ 0
 outEnc
-Wire Notes Line
-	3150 700  8350 700 
 Wire Notes Line
 	8350 700  8350 4300
 Wire Notes Line
 	8350 4300 3150 4300
-Wire Notes Line
-	3150 4300 3150 700 
 Text GLabel 4650 4000 2    39   Input ~ 0
 GND
 Text GLabel 3650 4000 0    39   Input ~ 0
@@ -323,9 +250,9 @@ GND
 Text GLabel 3650 6100 2    39   Input ~ 0
 GND
 Text GLabel 3650 6000 2    39   Input ~ 0
-3.3v
+3.3vGPSNode
 Text GLabel 2750 5100 3    39   Input ~ 0
-3.3v
+3.3vGPSNode
 Text GLabel 3350 5100 3    39   Input ~ 0
 GND
 Text GLabel 2650 6200 0    39   Input ~ 0
@@ -349,8 +276,8 @@ F 3 "" H 900 6550 50  0001 C CNN
 $EndComp
 Text GLabel 1700 7450 3    39   Input ~ 0
 GND
-Text GLabel 1900 7450 3    39   Input ~ 0
-3.3v
+Text GLabel 1900 7600 2    39   Input ~ 0
+3.3vGPSNode
 Text GLabel 1200 7450 3    39   Input ~ 0
 compSCL
 Text GLabel 1300 7450 3    39   Input ~ 0
@@ -410,15 +337,13 @@ canTxDrNd
 Text GLabel 5900 7250 2    39   Input ~ 0
 GND
 Text GLabel 5900 7150 2    39   Input ~ 0
-3.3v
+3.3vDriverNode
 Text GLabel 4900 7350 0    39   Input ~ 0
 CANH
 Text GLabel 4900 7250 0    39   Input ~ 0
 CANL
 Wire Notes Line
 	4450 4400 6900 4400
-Wire Notes Line
-	6900 4400 6900 7750
 Wire Notes Line
 	6900 7750 4450 7750
 Wire Notes Line
@@ -429,112 +354,8 @@ Text GLabel 5050 6450 0    50   Input ~ 0
 canTxDrNd
 Text GLabel 6050 6450 2    50   Input ~ 0
 canRxDrNd
-Text Notes 8650 4050 0    79   ~ 16
-Bridge Node
-$Comp
-L myComponents:SJ2Board U21
-U 1 1 6082EA95
-P 10050 4850
-F 0 "U21" H 10050 6015 50  0000 C CNN
-F 1 "SJ2Board" H 10050 5924 50  0000 C CNN
-F 2 "myFootprint:sj2Board" H 10050 3850 50  0001 C CNN
-F 3 "" H 10050 3850 50  0001 C CNN
-	1    10050 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L myComponents:can U18
-U 1 1 60830CDE
-P 7750 4700
-F 0 "U18" V 7600 4650 50  0000 C CNN
-F 1 "can" V 7850 4600 50  0000 C CNN
-F 2 "myFootprint:can" H 7250 5400 50  0001 C CNN
-F 3 "" H 7250 5400 50  0001 C CNN
-	1    7750 4700
-	0    -1   -1   0   
-$EndComp
-Text GLabel 8350 4800 2    50   Input ~ 0
-canRxBrNd
-Text GLabel 8350 4900 2    50   Input ~ 0
-canTxBrNd
-Text GLabel 8350 4700 2    39   Input ~ 0
-GND
-Text GLabel 8350 4600 2    39   Input ~ 0
-3.3v
-Text GLabel 7350 4800 0    39   Input ~ 0
-CANH
-Text GLabel 7350 4700 0    39   Input ~ 0
-CANL
-Text GLabel 9450 5650 0    50   Input ~ 0
-canTxBrNd
-Text GLabel 10650 5650 2    50   Input ~ 0
-canRxBrNd
-Wire Wire Line
-	10650 5650 10550 5650
-Wire Wire Line
-	9450 5650 9550 5650
-Text GLabel 10550 5850 2    39   Input ~ 0
-GND
-Text GLabel 9550 5850 0    39   Input ~ 0
-GND
-Text GLabel 10550 3950 2    39   Input ~ 0
-5v
-$Comp
-L myComponents:ESP8266 U20
-U 1 1 60834247
-P 7850 5300
-F 0 "U20" H 7850 5050 50  0000 C CNN
-F 1 "ESP8266" V 7850 5250 39  0000 C CNN
-F 2 "myFootprint:ESP8266" H 7850 5300 50  0001 C CNN
-F 3 "" H 7850 5300 50  0001 C CNN
-	1    7850 5300
-	1    0    0    -1  
-$EndComp
-Text GLabel 8250 5200 2    39   Input ~ 0
-3.3v
-Text GLabel 7450 5500 0    39   Input ~ 0
-GND
-Text GLabel 8300 5500 2    39   Input ~ 0
-wifiTx
-Text GLabel 10550 5350 2    39   Input ~ 0
-wifiRx
-Text GLabel 9550 5450 0    39   Input ~ 0
-wifiTx
-Wire Notes Line
-	7000 4400 8450 4400
-Wire Notes Line
-	8450 4400 8450 3650
-Wire Notes Line
-	8450 3650 11150 3650
-Wire Notes Line
-	11150 3650 11150 6400
-Wire Notes Line
-	11150 6400 7000 6400
-Wire Notes Line
-	7000 6400 7000 4400
-$Comp
-L myComponents:OLED U19
-U 1 1 6083795C
-P 7750 6100
-F 0 "U19" V 7750 6450 50  0000 C CNN
-F 1 "OLED" V 7900 6450 50  0000 C CNN
-F 2 "myFootprint:Oled" H 7550 5700 50  0001 C CNN
-F 3 "" H 7550 5700 50  0001 C CNN
-	1    7750 6100
-	0    -1   -1   0   
-$EndComp
-Text GLabel 8050 5900 2    39   Input ~ 0
-oledSDA
-Text GLabel 8050 6000 2    39   Input ~ 0
-oledSCL
-Text GLabel 10550 5750 2    39   Input ~ 0
-oledSCL
-Text GLabel 9550 5750 0    39   Input ~ 0
-oledSDA
-Text GLabel 8050 6100 2    39   Input ~ 0
-GND
 Text Notes 650  850  0    79   ~ 16
-Ultrasonic
+Ultrasonic Node
 Text GLabel 6400 1300 2    39   Input ~ 0
 canTxcomp
 $Comp
@@ -551,7 +372,7 @@ $EndComp
 Text GLabel 6400 1200 2    39   Input ~ 0
 canRxcomp
 Text GLabel 6400 1000 2    39   Input ~ 0
-3.3v
+3.3vDACNode
 Text GLabel 6400 1100 2    39   Input ~ 0
 GND
 Text GLabel 5400 1100 0    39   Input ~ 0
@@ -564,12 +385,6 @@ Text GLabel 3650 3800 0    39   Input ~ 0
 canTxcomp
 Text GLabel 1800 3700 2    39   Input ~ 0
 canRX
-Text GLabel 700  3650 1    39   Input ~ 0
-canTX
-Wire Wire Line
-	700  3650 700  3700
-Wire Wire Line
-	700  3700 800  3700
 $Comp
 L myComponents:motorTransceiver U17
 U 1 1 608455E4
@@ -616,12 +431,8 @@ Text GLabel 5950 2300 0    50   Input ~ 0
 com3
 Text GLabel 3650 2700 0    50   Input ~ 0
 com3
-Text GLabel 5950 2000 0    39   Input ~ 0
-5v
-Text Notes 6950 900  0    79   ~ 16
-motorTransceiver Dac
-Text GLabel 5950 2900 0    39   Input ~ 0
-5v
+Text Notes 7250 950  0    79   ~ 16
+motorTxRx Node
 NoConn ~ 4650 3500
 NoConn ~ 4650 3400
 NoConn ~ 4650 3300
@@ -652,7 +463,6 @@ NoConn ~ 4650 2500
 NoConn ~ 4650 2600
 NoConn ~ 3650 2100
 NoConn ~ 3650 2200
-NoConn ~ 4650 2200
 NoConn ~ 6050 6350
 NoConn ~ 6050 6250
 NoConn ~ 6050 6150
@@ -664,7 +474,6 @@ NoConn ~ 2050 5750
 NoConn ~ 2050 5650
 NoConn ~ 6050 5050
 NoConn ~ 6050 4950
-NoConn ~ 6050 4850
 NoConn ~ 5050 4750
 NoConn ~ 6050 5750
 NoConn ~ 6050 5650
@@ -692,8 +501,6 @@ NoConn ~ 5050 6050
 NoConn ~ 5050 6150
 NoConn ~ 5050 6250
 NoConn ~ 5050 6350
-NoConn ~ 5050 6550
-NoConn ~ 6050 6550
 NoConn ~ 2050 6250
 NoConn ~ 2050 6350
 NoConn ~ 1050 6250
@@ -710,7 +517,6 @@ NoConn ~ 2050 5350
 NoConn ~ 2050 5450
 NoConn ~ 2050 6450
 NoConn ~ 1050 6450
-NoConn ~ 2050 4950
 NoConn ~ 2050 5050
 NoConn ~ 2050 5150
 NoConn ~ 2050 5250
@@ -719,72 +525,15 @@ NoConn ~ 1050 5250
 NoConn ~ 1050 5050
 NoConn ~ 1050 4950
 NoConn ~ 1050 4850
-NoConn ~ 10550 4050
-NoConn ~ 10550 4150
-NoConn ~ 10550 4250
-NoConn ~ 10550 4350
-NoConn ~ 10550 4450
-NoConn ~ 10550 4550
-NoConn ~ 10550 4650
-NoConn ~ 10550 4750
-NoConn ~ 10550 4850
-NoConn ~ 9550 4850
-NoConn ~ 9550 4750
-NoConn ~ 9550 4650
-NoConn ~ 9550 4550
-NoConn ~ 9550 4450
-NoConn ~ 9550 4350
-NoConn ~ 9550 4250
-NoConn ~ 9550 4150
-NoConn ~ 9550 4050
-NoConn ~ 9550 3950
-NoConn ~ 10550 5250
-NoConn ~ 10550 5150
-NoConn ~ 10550 5050
-NoConn ~ 10550 4950
-NoConn ~ 10550 5450
-NoConn ~ 10550 5550
-NoConn ~ 9550 5550
-NoConn ~ 9550 5350
-NoConn ~ 9550 5250
-NoConn ~ 9550 5150
-NoConn ~ 9550 5050
-NoConn ~ 9550 4950
-NoConn ~ 8250 5300
-NoConn ~ 7450 5400
-NoConn ~ 7450 5300
-Wire Wire Line
-	8300 5500 8250 5500
-Text GLabel 7450 5200 0    39   Input ~ 0
-wifiRx
 NoConn ~ 3550 5100
 NoConn ~ 3450 5100
 NoConn ~ 3050 5100
 NoConn ~ 2950 5100
 NoConn ~ 2850 5100
-Text GLabel 8250 5400 2    39   Input ~ 0
-3.3v
 NoConn ~ 1800 7450
 NoConn ~ 1600 7450
 NoConn ~ 1500 7450
 NoConn ~ 1400 7450
-Text GLabel 8050 6200 2    39   Input ~ 0
-5v
-$Comp
-L myComponents:Encoder J1
-U 1 1 607F3B01
-P 4300 1000
-F 0 "J1" H 4478 1092 50  0000 L CNN
-F 1 "Wheel Encoder" H 4100 800 50  0000 L CNN
-F 2 "myFootprint:WheelEncoder" H 4200 1100 50  0001 C CNN
-F 3 "~" H 4200 1100 50  0001 C CNN
-	1    4300 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 1000 3900 1000
-Wire Wire Line
-	3900 1000 3900 1300
 $Comp
 L myComponents:12vto5v U22
 U 1 1 6083A09C
@@ -825,4 +574,283 @@ Wire Wire Line
 	9900 2100 9350 2100
 Wire Wire Line
 	9350 2300 9900 2300
+Wire Notes Line
+	11150 6400 7000 6400
+Wire Notes Line
+	11150 3650 11150 6400
+Wire Notes Line
+	8450 4400 8450 3650
+NoConn ~ 9550 4950
+NoConn ~ 9550 5050
+NoConn ~ 9550 5150
+NoConn ~ 9550 5250
+NoConn ~ 9550 5350
+NoConn ~ 9550 5550
+NoConn ~ 10550 5550
+NoConn ~ 10550 5450
+NoConn ~ 10550 4950
+NoConn ~ 10550 5050
+NoConn ~ 10550 5150
+NoConn ~ 10550 5250
+NoConn ~ 9550 3950
+NoConn ~ 9550 4050
+NoConn ~ 9550 4150
+NoConn ~ 9550 4250
+NoConn ~ 9550 4350
+NoConn ~ 9550 4450
+NoConn ~ 9550 4550
+NoConn ~ 9550 4650
+NoConn ~ 9550 4750
+NoConn ~ 9550 4850
+NoConn ~ 10550 4850
+NoConn ~ 10550 4750
+NoConn ~ 10550 4650
+NoConn ~ 10550 4550
+NoConn ~ 10550 4450
+NoConn ~ 10550 4350
+NoConn ~ 10550 4250
+NoConn ~ 10550 4150
+Text GLabel 9550 5750 0    39   Input ~ 0
+oledSDA
+Text GLabel 10550 5750 2    39   Input ~ 0
+oledSCL
+Wire Notes Line
+	8450 3650 11150 3650
+Text GLabel 10550 3950 2    39   Input ~ 0
+5v
+Text GLabel 9550 5850 0    39   Input ~ 0
+GND
+Text GLabel 10550 5850 2    39   Input ~ 0
+GND
+Wire Wire Line
+	9450 5650 9550 5650
+Wire Wire Line
+	10650 5650 10550 5650
+$Comp
+L myComponents:SJ2Board U21
+U 1 1 6082EA95
+P 10050 4850
+F 0 "U21" H 10050 6015 50  0000 C CNN
+F 1 "SJ2Board" H 10050 5924 50  0000 C CNN
+F 2 "myFootprint:sj2Board" H 10050 3850 50  0001 C CNN
+F 3 "" H 10050 3850 50  0001 C CNN
+	1    10050 4850
+	1    0    0    -1  
+$EndComp
+Text Notes 8650 4050 0    79   ~ 16
+Bridge Node
+Wire Notes Line
+	7000 4400 8450 4400
+Wire Notes Line
+	7000 6400 7000 4400
+Wire Notes Line
+	6900 4400 6900 7750
+NoConn ~ 6050 6550
+NoConn ~ 5050 6550
+Text GLabel 7350 4700 0    39   Input ~ 0
+CANL
+Text GLabel 7350 4800 0    39   Input ~ 0
+CANH
+Text GLabel 8350 4600 2    39   Input ~ 0
+3.3vbridgeNode
+Text GLabel 8350 4700 2    39   Input ~ 0
+GND
+Text GLabel 8350 4900 2    50   Input ~ 0
+canTxBrNd
+Text GLabel 8350 4800 2    50   Input ~ 0
+canRxBrNd
+$Comp
+L myComponents:can U18
+U 1 1 60830CDE
+P 7750 4700
+F 0 "U18" V 7600 4650 50  0000 C CNN
+F 1 "can" V 7850 4600 50  0000 C CNN
+F 2 "myFootprint:can" H 7250 5400 50  0001 C CNN
+F 3 "" H 7250 5400 50  0001 C CNN
+	1    7750 4700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10650 5650 2    50   Input ~ 0
+canRxBrNd
+Text GLabel 9450 5650 0    50   Input ~ 0
+canTxBrNd
+Text GLabel 10550 5350 2    39   Input ~ 0
+wifiRx
+Text GLabel 9550 5450 0    39   Input ~ 0
+wifiTx
+Text GLabel 5950 2900 0    39   Input ~ 0
+5v
+NoConn ~ 1800 3400
+NoConn ~ 800  3500
+Wire Wire Line
+	700  3700 800  3700
+Wire Wire Line
+	700  3650 700  3700
+Text GLabel 700  3650 1    39   Input ~ 0
+canTX
+Text GLabel 7450 5200 0    39   Input ~ 0
+wifiRx
+Wire Wire Line
+	8300 5500 8250 5500
+NoConn ~ 7450 5300
+NoConn ~ 7450 5400
+NoConn ~ 8250 5300
+Text GLabel 8300 5500 2    39   Input ~ 0
+wifiTx
+Text GLabel 7450 5500 0    39   Input ~ 0
+GND
+Text GLabel 8250 5200 2    39   Input ~ 0
+3.3vbridgeNode
+$Comp
+L myComponents:ESP8266 U20
+U 1 1 60834247
+P 7850 5300
+F 0 "U20" H 7850 5050 50  0000 C CNN
+F 1 "ESP8266" V 7850 5250 39  0000 C CNN
+F 2 "myFootprint:ESP8266" H 7850 5300 50  0001 C CNN
+F 3 "" H 7850 5300 50  0001 C CNN
+	1    7850 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 1000 0    39   Input ~ 0
+GND
+Text GLabel 2400 900  0    39   Input ~ 0
+3.3vUlSo
+Text GLabel 2400 1200 0    39   Input ~ 0
+SDA
+Text GLabel 2400 1100 0    39   Input ~ 0
+SCL
+$Comp
+L myComponents:ultrasonic U5
+U 1 1 607B7CAD
+P 2500 1000
+F 0 "U5" V 2528 1228 50  0000 L CNN
+F 1 "ultrasonic" V 2595 1228 20  0000 L CNN
+F 2 "myFootprint:ultrasonic" H 2000 700 50  0001 C CNN
+F 3 "" H 2000 700 50  0001 C CNN
+	1    2500 1000
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	600  700  3100 700 
+Wire Notes Line
+	3150 700  8350 700 
+Wire Notes Line
+	3100 700  3100 4300
+Wire Notes Line
+	3150 4300 3150 700 
+Wire Wire Line
+	3900 1000 3900 1300
+Wire Wire Line
+	4000 1000 3900 1000
+$Comp
+L myComponents:Encoder J1
+U 1 1 607F3B01
+P 4300 1000
+F 0 "J1" H 4478 1092 50  0000 L CNN
+F 1 "Wheel Encoder" H 4100 800 50  0000 L CNN
+F 2 "myFootprint:WheelEncoder" H 4200 1100 50  0001 C CNN
+F 3 "~" H 4200 1100 50  0001 C CNN
+	1    4300 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1500 3950 1500
+Connection ~ 4050 1500
+Wire Wire Line
+	4050 1650 4050 1500
+Text GLabel 4050 1650 0    50   Input ~ 0
+outEnc
+Text GLabel 3650 1500 0    50   Input ~ 0
+GND
+Wire Wire Line
+	4150 1500 4050 1500
+Wire Wire Line
+	4550 1300 3900 1300
+Wire Wire Line
+	4550 1500 4550 1300
+Wire Wire Line
+	4450 1500 4550 1500
+$Comp
+L Device:R C1
+U 1 1 607F7524
+P 3800 1500
+F 0 "C1" V 3700 1500 50  0000 C CNN
+F 1 "C" V 3800 1500 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" V 3730 1500 50  0001 C CNN
+F 3 "~" H 3800 1500 50  0001 C CNN
+	1    3800 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 607F7063
+P 4300 1500
+F 0 "R1" V 4200 1500 50  0000 C CNN
+F 1 "R" V 4300 1500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical" V 4230 1500 50  0001 C CNN
+F 3 "~" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	0    1    1    0   
+$EndComp
+Text GLabel 4000 900  0    50   Input ~ 0
+GND
+Text GLabel 4000 800  0    50   Input ~ 0
+3.3vDACNode
+$Comp
+L myComponents:OLED U19
+U 1 1 6083795C
+P 7750 6100
+F 0 "U19" V 7750 6450 50  0000 C CNN
+F 1 "OLED" V 7900 6450 50  0000 C CNN
+F 2 "myFootprint:Oled" H 7550 5700 50  0001 C CNN
+F 3 "" H 7550 5700 50  0001 C CNN
+	1    7750 6100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8050 5900 2    39   Input ~ 0
+oledSDA
+Text GLabel 8050 6000 2    39   Input ~ 0
+oledSCL
+Text GLabel 8050 6100 2    39   Input ~ 0
+GND
+Text GLabel 8050 6200 2    39   Input ~ 0
+5v
+Text GLabel 1800 2100 2    39   Input ~ 0
+3.3vUlSo
+Wire Wire Line
+	1900 7450 1900 7600
+Text GLabel 2050 4950 2    39   Input ~ 0
+3.3vGPSNode
+Text GLabel 5950 2000 0    39   Input ~ 0
+3.3vDACNode
+Text GLabel 4750 2200 2    39   Input ~ 0
+3.3vDACNode
+Wire Wire Line
+	4750 2200 4650 2200
+Text GLabel 10600 4050 2    39   Input ~ 0
+3.3vbridgeNode
+Wire Wire Line
+	10600 4050 10550 4050
+Text GLabel 6150 4850 2    39   Input ~ 0
+3.3vDriverNode
+Wire Wire Line
+	6150 4850 6050 4850
+Text GLabel 8250 5400 2    39   Input ~ 0
+3.3vbridgeNode
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 608CB3ED
+P 9800 3100
+F 0 "J3" H 9880 3092 50  0000 L CNN
+F 1 "CanHL" H 9880 3001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9800 3100 50  0001 C CNN
+F 3 "~" H 9800 3100 50  0001 C CNN
+	1    9800 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9600 3100 0    39   Input ~ 0
+CANL
+Text GLabel 9600 3200 0    39   Input ~ 0
+CANH
 $EndSCHEMATC
