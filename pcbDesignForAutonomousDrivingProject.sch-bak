@@ -839,12 +839,12 @@ Wire Wire Line
 Text GLabel 8250 5400 2    39   Input ~ 0
 3.3vbridgeNode
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J3
 U 1 1 608CB3ED
 P 9800 3100
-F 0 "J?" H 9880 3092 50  0000 L CNN
+F 0 "J3" H 9880 3092 50  0000 L CNN
 F 1 "CanHL" H 9880 3001 50  0000 L CNN
-F 2 "" H 9800 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9800 3100 50  0001 C CNN
 F 3 "~" H 9800 3100 50  0001 C CNN
 	1    9800 3100
 	1    0    0    -1  

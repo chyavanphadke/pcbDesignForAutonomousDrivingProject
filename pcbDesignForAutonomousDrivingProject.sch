@@ -431,7 +431,7 @@ Text GLabel 5950 2300 0    50   Input ~ 0
 com3
 Text GLabel 3650 2700 0    50   Input ~ 0
 com3
-Text Notes 7250 950  0    79   ~ 16
+Text Notes 7250 1000 0    79   ~ 16
 motorTxRx Node
 NoConn ~ 4650 3500
 NoConn ~ 4650 3400
