@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11)
+    (drawings 15)
     (tracks 0)
     (zones 0)
     (modules 27)
@@ -303,8 +303,6 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
-    (add_net CANH)
-    (add_net CANL)
     (add_net "Net-(J1-Pad3)")
     (add_net "Net-(J2-Pad1)")
     (add_net "Net-(J2-Pad2)")
@@ -505,9 +503,9 @@
 
   (net_class Power ""
     (clearance 0.3)
-    (trace_width 0.6)
-    (via_dia 0.8)
-    (via_drill 0.4)
+    (trace_width 0.8)
+    (via_dia 1)
+    (via_drill 0.5)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
     (add_net 3.3vDACNode)
@@ -516,6 +514,8 @@
     (add_net 3.3vUlSo)
     (add_net 3.3vbridgeNode)
     (add_net 5v)
+    (add_net CANH)
+    (add_net CANL)
     (add_net GND)
   )
 
@@ -2043,6 +2043,10 @@
     )
   )
 
+  (gr_arc (start 128 -35) (end 125 -35) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 262 -35) (end 262 -32) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 262 -169) (end 265 -169) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 128 -169) (end 128 -172) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_text CanH (at 195 -121) (layer F.SilkS) (tstamp 6086B87B)
     (effects (font (size 1 1) (thickness 0.25)))
   )
