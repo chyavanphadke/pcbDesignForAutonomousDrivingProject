@@ -356,28 +356,28 @@ Text GLabel 6050 6450 2    50   Input ~ 0
 canRxDrNd
 Text Notes 650  850  0    79   ~ 16
 Ultrasonic Node
-Text GLabel 6400 1300 2    39   Input ~ 0
+Text GLabel 6550 1500 2    39   Input ~ 0
 canTxcomp
 $Comp
 L myComponents:can U15
 U 1 1 608403F5
-P 5800 1100
-F 0 "U15" V 5550 1350 50  0000 C CNN
-F 1 "can" V 5950 1000 50  0000 C CNN
-F 2 "myFootprint:can" H 5300 1800 50  0001 C CNN
-F 3 "" H 5300 1800 50  0001 C CNN
-	1    5800 1100
+P 5950 1300
+F 0 "U15" V 5700 1550 50  0000 C CNN
+F 1 "can" V 6100 1200 50  0000 C CNN
+F 2 "myFootprint:can" H 5450 2000 50  0001 C CNN
+F 3 "" H 5450 2000 50  0001 C CNN
+	1    5950 1300
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6400 1200 2    39   Input ~ 0
+Text GLabel 6550 1400 2    39   Input ~ 0
 canRxcomp
-Text GLabel 6400 1000 2    39   Input ~ 0
+Text GLabel 6550 1200 2    39   Input ~ 0
 3.3vDACNode
-Text GLabel 6400 1100 2    39   Input ~ 0
+Text GLabel 6550 1300 2    39   Input ~ 0
 GND
-Text GLabel 5400 1100 0    39   Input ~ 0
+Text GLabel 5550 1300 0    39   Input ~ 0
 CANL
-Text GLabel 5400 1200 0    39   Input ~ 0
+Text GLabel 5550 1400 0    39   Input ~ 0
 CANH
 Text GLabel 4650 3800 2    39   Input ~ 0
 canRxcomp
@@ -388,46 +388,46 @@ canRX
 $Comp
 L myComponents:motorTransceiver U17
 U 1 1 608455E4
-P 6350 2100
-F 0 "U17" H 6578 2118 79  0000 L CNN
-F 1 "motorTransceiver" H 5850 1700 79  0000 L CNN
-F 2 "myFootprint:motorTransceiver" H 5750 1600 79  0001 C CNN
-F 3 "" H 5750 1600 79  0001 C CNN
-	1    6350 2100
+P 7200 2350
+F 0 "U17" H 7428 2368 79  0000 L CNN
+F 1 "motorTransceiver" H 6700 1950 79  0000 L CNN
+F 2 "myFootprint:motorTransceiver" H 6600 1850 79  0001 C CNN
+F 3 "" H 6600 1850 79  0001 C CNN
+	1    7200 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L myComponents:DAC U16
 U 1 1 60845D00
-P 6250 3200
-F 0 "U16" H 6478 3318 79  0000 L CNN
-F 1 "DAC" H 6478 3183 79  0000 L CNN
-F 2 "myFootprint:DAC" H 5850 2900 79  0001 C CNN
-F 3 "" H 5850 2900 79  0001 C CNN
-	1    6250 3200
+P 7100 3450
+F 0 "U16" H 7328 3568 79  0000 L CNN
+F 1 "DAC" H 7328 3433 79  0000 L CNN
+F 2 "myFootprint:DAC" H 6700 3150 79  0001 C CNN
+F 3 "" H 6700 3150 79  0001 C CNN
+	1    7100 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 5950 3000 0    39   Input ~ 0
+Text GLabel 6800 3250 0    39   Input ~ 0
 GND
-Text GLabel 5950 2100 0    39   Input ~ 0
+Text GLabel 6800 2350 0    39   Input ~ 0
 GND
-Text GLabel 5950 3100 0    39   Input ~ 0
+Text GLabel 6800 3350 0    39   Input ~ 0
 SCLdac
-Text GLabel 5950 3200 0    39   Input ~ 0
+Text GLabel 6800 3450 0    39   Input ~ 0
 SDAdac
-Text GLabel 5950 3300 0    39   Input ~ 0
+Text GLabel 6800 3550 0    39   Input ~ 0
 GND
 Text GLabel 4650 3900 2    39   Input ~ 0
 SCLdac
 Text GLabel 3650 3900 0    39   Input ~ 0
 SDAdac
 Wire Wire Line
-	5950 3400 5300 3400
+	6800 3650 6150 3650
 Wire Wire Line
-	5300 3400 5300 2200
+	6150 3650 6150 2450
 Wire Wire Line
-	5300 2200 5950 2200
-Text GLabel 5950 2300 0    50   Input ~ 0
+	6150 2450 6800 2450
+Text GLabel 6800 2550 0    50   Input ~ 0
 com3
 Text GLabel 3650 2700 0    50   Input ~ 0
 com3
@@ -678,7 +678,7 @@ Text GLabel 10550 5350 2    39   Input ~ 0
 wifiRx
 Text GLabel 9550 5450 0    39   Input ~ 0
 wifiTx
-Text GLabel 5950 2900 0    39   Input ~ 0
+Text GLabel 6800 3150 0    39   Input ~ 0
 5v
 NoConn ~ 1800 3400
 NoConn ~ 800  3500
@@ -822,7 +822,7 @@ Wire Wire Line
 	1900 7450 1900 7600
 Text GLabel 2050 4950 2    39   Input ~ 0
 3.3vGPSNode
-Text GLabel 5950 2000 0    39   Input ~ 0
+Text GLabel 6800 2250 0    39   Input ~ 0
 3.3vDACNode
 Text GLabel 4750 2200 2    39   Input ~ 0
 3.3vDACNode

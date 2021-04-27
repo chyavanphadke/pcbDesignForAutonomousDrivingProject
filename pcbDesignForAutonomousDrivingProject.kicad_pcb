@@ -303,8 +303,6 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
-    (add_net CANH)
-    (add_net CANL)
     (add_net "Net-(J1-Pad3)")
     (add_net "Net-(J2-Pad1)")
     (add_net "Net-(J2-Pad2)")
@@ -516,6 +514,8 @@
     (add_net 3.3vUlSo)
     (add_net 3.3vbridgeNode)
     (add_net 5v)
+    (add_net CANH)
+    (add_net CANL)
     (add_net GND)
   )
 
