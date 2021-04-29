@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\chyav\OneDrive\Desktop\pcbDesignForAutonomousDrivingProject\pcbDesignForAutonomousDrivingProject.sch)
-    (date "4/29/2021 12:30:53 AM")
+    (date "4/29/2021 12:55:57 AM")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
