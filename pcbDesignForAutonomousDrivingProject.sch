@@ -567,8 +567,6 @@ F 3 "~" H 9100 2160 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9900 2100 9350 2100
-Wire Wire Line
 	9350 2300 9900 2300
 Text GLabel 6850 3150 0    39   Input ~ 0
 3.3vDACNode
@@ -653,8 +651,6 @@ Text GLabel 7600 5400 2    39   Input ~ 0
 oledSCL
 Text GLabel 7600 5600 2    39   Input ~ 0
 GND
-Text GLabel 7600 5500 2    39   Input ~ 0
-3.3vDriverNode
 Text GLabel 1800 2100 2    39   Input ~ 0
 3.3vUlSo
 Wire Wire Line
@@ -740,4 +736,33 @@ Wire Wire Line
 	6200 5450 6050 5450
 Text GLabel 7600 5300 2    39   Input ~ 0
 oledSDA
+Wire Wire Line
+	9900 2100 9350 2100
+Text GLabel 7600 5500 2    39   Input ~ 0
+3.3vDriverNode
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60946026
+P 9650 1650
+F 0 "J?" H 9730 1642 50  0000 L CNN
+F 1 "Input" H 9730 1551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9650 1650 50  0001 C CNN
+F 3 "~" H 9650 1650 50  0001 C CNN
+	1    9650 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9900 2100 9900 1450
+Wire Wire Line
+	9900 1450 9650 1450
+Connection ~ 9900 2100
+Wire Wire Line
+	9550 1450 8750 1450
+Wire Wire Line
+	8750 1450 8750 2550
+Wire Wire Line
+	8750 2550 9900 2550
+Wire Wire Line
+	9900 2550 9900 2300
+Connection ~ 9900 2300
 $EndSCHEMATC
