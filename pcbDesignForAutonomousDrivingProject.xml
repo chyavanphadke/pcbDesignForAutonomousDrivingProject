@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\chyav\OneDrive\Desktop\pcbDesignForAutonomousDrivingProject\pcbDesignForAutonomousDrivingProject.sch</source>
+    <date>4/29/2021 2:43:50 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pcbDesignForAutonomousDrivingProject.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>SJ2Board</value>
+      <footprint>myFootprint:sj2Board</footprint>
+      <libsource lib="myComponents" part="SJ2Board" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A89AA</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>ultrasonic</value>
+      <footprint>myFootprint:ultrasonic</footprint>
+      <libsource lib="myComponents" part="ultrasonic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607B88FD</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>ultrasonic</value>
+      <footprint>myFootprint:ultrasonic</footprint>
+      <libsource lib="myComponents" part="ultrasonic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607B8C42</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>ultrasonic</value>
+      <footprint>myFootprint:ultrasonic</footprint>
+      <libsource lib="myComponents" part="ultrasonic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607B8E5B</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>ultrasonic</value>
+      <footprint>myFootprint:ultrasonic</footprint>
+      <libsource lib="myComponents" part="ultrasonic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607B9182</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>SJ2Board</value>
+      <footprint>myFootprint:sj2Board</footprint>
+      <libsource lib="myComponents" part="SJ2Board" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607CBDCD</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>can</value>
+      <footprint>myFootprint:can</footprint>
+      <libsource lib="myComponents" part="can" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607BC269</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SJ2Board</value>
+      <footprint>myFootprint:sj2Board</footprint>
+      <libsource lib="myComponents" part="SJ2Board" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60813DB0</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>GPSModule</value>
+      <footprint>myFootprint:GPS</footprint>
+      <libsource lib="myComponents" part="GPSModule" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081542E</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>can</value>
+      <footprint>myFootprint:can</footprint>
+      <libsource lib="myComponents" part="can" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081623B</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>Compass</value>
+      <footprint>myFootprint:compass</footprint>
+      <libsource lib="myComponents" part="Compass" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081FA7F</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>SJ2Board</value>
+      <footprint>myFootprint:sj2Board</footprint>
+      <libsource lib="myComponents" part="SJ2Board" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60827998</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>can</value>
+      <footprint>myFootprint:can</footprint>
+      <libsource lib="myComponents" part="can" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6082A00B</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>can</value>
+      <footprint>myFootprint:can</footprint>
+      <libsource lib="myComponents" part="can" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608403F5</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>motorTransceiver</value>
+      <footprint>myFootprint:motorTransceiver</footprint>
+      <libsource lib="myComponents" part="motorTransceiver" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608455E4</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>DAC</value>
+      <footprint>myFootprint:DAC</footprint>
+      <libsource lib="myComponents" part="DAC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60845D00</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>12vto5v</value>
+      <footprint>myFootprint:12vto5v</footprint>
+      <libsource lib="myComponents" part="12vto5v" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6083A09C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Jack-DC</value>
+      <footprint>myFootprint:BarrelJack_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Jack-DC" description="DC Barrel Jack"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60841F9D</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>ESP8266</value>
+      <footprint>myFootprint:ESP8266</footprint>
+      <libsource lib="myComponents" part="ESP8266" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60834247</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ultrasonic</value>
+      <footprint>myFootprint:ultrasonic</footprint>
+      <libsource lib="myComponents" part="ultrasonic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607B7CAD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Wheel Encoder</value>
+      <footprint>myFootprint:WheelEncoder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="myComponents" part="Encoder" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607F3B01</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>OLED</value>
+      <footprint>myFootprint:Oled</footprint>
+      <libsource lib="myComponents" part="OLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6083795C</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CanHL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608CB3ED</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Input</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60946026</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <aliases>
+        <alias>Jack-DC</alias>
+      </aliases>
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="myComponents" part="12vto5v">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">12vto5v</field>
+      </fields>
+      <pins>
+        <pin num="1" name="12v+" type="input"/>
+        <pin num="2" name="12v-" type="input"/>
+        <pin num="3" name="5v+" type="input"/>
+        <pin num="4" name="5v-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="myComponents" part="Compass">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Compass</field>
+      </fields>
+      <pins>
+        <pin num="0" name="SCL" type="input"/>
+        <pin num="1" name="SDA" type="input"/>
+        <pin num="2" name="Is" type="input"/>
+        <pin num="3" name="I1" type="input"/>
+        <pin num="4" name="DRDY" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="Vin" type="input"/>
+        <pin num="7" name="3.3v" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="myComponents" part="DAC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DAC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="BiDi"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="A0" type="input"/>
+        <pin num="6" name="Vout" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="myComponents" part="ESP8266">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP8266</field>
+      </fields>
+      <pins>
+        <pin num="0" name="RX" type="BiDi"/>
+        <pin num="1" name="IO0" type="input"/>
+        <pin num="2" name="IO2" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="TX" type="BiDi"/>
+        <pin num="5" name="EN" type="BiDi"/>
+        <pin num="6" name="RST" type="input"/>
+        <pin num="7" name="3.3v" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="myComponents" part="Encoder">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Encoder</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="BiDi"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="D0" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="myComponents" part="GPSModule">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GPSModule</field>
+      </fields>
+      <pins>
+        <pin num="0" name="3.3v" type="BiDi"/>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="VBAT" type="input"/>
+        <pin num="3" name="FIX" type="input"/>
+        <pin num="4" name="TX" type="input"/>
+        <pin num="5" name="RX" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="Viin" type="input"/>
+        <pin num="8" name="PPS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="myComponents" part="OLED">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OLED</field>
+      </fields>
+      <pins>
+        <pin num="0" name="VCC" type="input"/>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="myComponents" part="SJ2Board">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SJ2Board</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1.0" type="input"/>
+        <pin num="2" name="Vcc-5v" type="input"/>
+        <pin num="3" name="P1.1" type="input"/>
+        <pin num="4" name="Vcc-3.3v" type="BiDi"/>
+        <pin num="5" name="P1.4" type="input"/>
+        <pin num="6" name="P1.14" type="input"/>
+        <pin num="7" name="P4.28" type="input"/>
+        <pin num="8" name="P4.29" type="input"/>
+        <pin num="9" name="P0.6" type="input"/>
+        <pin num="10" name="P0.7" type="input"/>
+        <pin num="11" name="P0.8" type="input"/>
+        <pin num="12" name="P0.9" type="input"/>
+        <pin num="13" name="P0.26" type="BiDi"/>
+        <pin num="14" name="P0.25" type="input"/>
+        <pin num="15" name="P1.31" type="BiDi"/>
+        <pin num="16" name="P1.30" type="BiDi"/>
+        <pin num="17" name="P1.20" type="input"/>
+        <pin num="18" name="P1.23" type="input"/>
+        <pin num="19" name="P1.28" type="input"/>
+        <pin num="20" name="P1.29" type="input"/>
+        <pin num="21" name="P2.0" type="input"/>
+        <pin num="22" name="P2.1" type="input"/>
+        <pin num="23" name="P2.2" type="input"/>
+        <pin num="24" name="P2.4" type="input"/>
+        <pin num="25" name="P2.5" type="input"/>
+        <pin num="26" name="P2.6" type="input"/>
+        <pin num="27" name="P2.7" type="input"/>
+        <pin num="28" name="P2.8" type="input"/>
+        <pin num="29" name="P2.9" type="input"/>
+        <pin num="30" name="P0.16" type="BiDi"/>
+        <pin num="31" name="P0.15" type="input"/>
+        <pin num="32" name="P0.17" type="input"/>
+        <pin num="33" name="P0.18" type="input"/>
+        <pin num="34" name="P0.22" type="input"/>
+        <pin num="35" name="P0._1" type="BiDi"/>
+        <pin num="36" name="P0.0" type="BiDi"/>
+        <pin num="37" name="P0.10" type="BiDi"/>
+        <pin num="38" name="P0.11" type="BiDi"/>
+        <pin num="39" name="GND" type="input"/>
+        <pin num="40" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="myComponents" part="can">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">can</field>
+      </fields>
+      <pins>
+        <pin num="0" name="canTx" type="BiDi"/>
+        <pin num="1" name="canRx" type="BiDi"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="3.3" type="input"/>
+        <pin num="4" name="CANL" type="BiDi"/>
+        <pin num="5" name="CANH" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="myComponents" part="motorTransceiver">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">motorTransceiver</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="input"/>
+        <pin num="2" name="Gnd" type="input"/>
+        <pin num="3" name="CON2" type="input"/>
+        <pin num="4" name="CON3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="myComponents" part="ultrasonic">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ultrasonic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="BiDi"/>
+        <pin num="2" name="GND" type="BiDi"/>
+        <pin num="3" name="C" type="input"/>
+        <pin num="4" name="D" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="myComponents">
+      <uri>C:\Users\chyav\OneDrive\Desktop\pcbDesignForAutonomousDrivingProject/myComponents/myComponents.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U12-Pad29)">
+      <node ref="U12" pin="29"/>
+    </net>
+    <net code="2" name="Net-(U12-Pad22)">
+      <node ref="U12" pin="22"/>
+    </net>
+    <net code="3" name="Net-(U12-Pad20)">
+      <node ref="U12" pin="20"/>
+    </net>
+    <net code="4" name="Net-(U12-Pad18)">
+      <node ref="U12" pin="18"/>
+    </net>
+    <net code="5" name="Net-(U12-Pad16)">
+      <node ref="U12" pin="16"/>
+    </net>
+    <net code="6" name="Net-(U12-Pad14)">
+      <node ref="U12" pin="14"/>
+    </net>
+    <net code="7" name="Net-(U12-Pad32)">
+      <node ref="U12" pin="32"/>
+    </net>
+    <net code="8" name="Net-(U12-Pad33)">
+      <node ref="U12" pin="33"/>
+    </net>
+    <net code="9" name="Net-(U12-Pad31)">
+      <node ref="U12" pin="31"/>
+    </net>
+    <net code="10" name="Net-(U12-Pad24)">
+      <node ref="U12" pin="24"/>
+    </net>
+    <net code="11" name="Net-(U12-Pad27)">
+      <node ref="U12" pin="27"/>
+    </net>
+    <net code="12" name="Net-(U12-Pad25)">
+      <node ref="U12" pin="25"/>
+    </net>
+    <net code="13" name="Net-(U12-Pad23)">
+      <node ref="U12" pin="23"/>
+    </net>
+    <net code="14" name="Net-(U12-Pad21)">
+      <node ref="U12" pin="21"/>
+    </net>
+    <net code="15" name="Net-(U12-Pad19)">
+      <node ref="U12" pin="19"/>
+    </net>
+    <net code="16" name="Net-(U12-Pad17)">
+      <node ref="U12" pin="17"/>
+    </net>
+    <net code="17" name="Net-(U12-Pad15)">
+      <node ref="U12" pin="15"/>
+    </net>
+    <net code="18" name="Net-(U16-Pad6)">
+      <node ref="U16" pin="6"/>
+      <node ref="U17" pin="3"/>
+    </net>
+    <net code="19" name="Net-(U12-Pad11)">
+      <node ref="U12" pin="11"/>
+    </net>
+    <net code="20" name="Net-(U12-Pad30)">
+      <node ref="U12" pin="30"/>
+    </net>
+    <net code="21" name="Net-(U12-Pad28)">
+      <node ref="U12" pin="28"/>
+    </net>
+    <net code="22" name="Net-(U12-Pad26)">
+      <node ref="U12" pin="26"/>
+    </net>
+    <net code="23" name="Net-(U14-Pad12)">
+      <node ref="U14" pin="12"/>
+    </net>
+    <net code="24" name="Net-(U3-Pad18)">
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="25" name="Net-(U14-Pad8)">
+      <node ref="U14" pin="8"/>
+    </net>
+    <net code="26" name="Net-(U14-Pad6)">
+      <node ref="U14" pin="6"/>
+    </net>
+    <net code="27" name="Net-(U14-Pad1)">
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="28" name="Net-(U14-Pad22)">
+      <node ref="U14" pin="22"/>
+    </net>
+    <net code="29" name="Net-(U14-Pad20)">
+      <node ref="U14" pin="20"/>
+    </net>
+    <net code="30" name="Net-(U14-Pad18)">
+      <node ref="U14" pin="18"/>
+    </net>
+    <net code="31" name="Net-(U14-Pad14)">
+      <node ref="U14" pin="14"/>
+    </net>
+    <net code="32" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="33" name="Net-(U14-Pad10)">
+      <node ref="U14" pin="10"/>
+    </net>
+    <net code="34" name="Net-(U3-Pad28)">
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="35" name="Net-(U3-Pad26)">
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="36" name="Net-(U3-Pad24)">
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="37" name="Net-(U14-Pad7)">
+      <node ref="U14" pin="7"/>
+    </net>
+    <net code="38" name="Net-(U14-Pad5)">
+      <node ref="U14" pin="5"/>
+    </net>
+    <net code="39" name="Net-(U14-Pad3)">
+      <node ref="U14" pin="3"/>
+    </net>
+    <net code="40" name="Net-(U12-Pad3)">
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="41" name="Net-(U12-Pad9)">
+      <node ref="U12" pin="9"/>
+    </net>
+    <net code="42" name="Net-(U12-Pad7)">
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="43" name="Net-(U12-Pad5)">
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="44" name="Net-(U12-Pad6)">
+      <node ref="U12" pin="6"/>
+    </net>
+    <net code="45" name="Net-(U12-Pad8)">
+      <node ref="U12" pin="8"/>
+    </net>
+    <net code="46" name="Net-(U12-Pad10)">
+      <node ref="U12" pin="10"/>
+    </net>
+    <net code="47" name="Net-(U12-Pad12)">
+      <node ref="U12" pin="12"/>
+    </net>
+    <net code="48" name="Net-(U12-Pad1)">
+      <node ref="U12" pin="1"/>
+    </net>
+    <net code="49" name="Net-(U14-Pad34)">
+      <node ref="U14" pin="34"/>
+    </net>
+    <net code="50" name="Net-(U14-Pad32)">
+      <node ref="U14" pin="32"/>
+    </net>
+    <net code="51" name="Net-(U14-Pad30)">
+      <node ref="U14" pin="30"/>
+    </net>
+    <net code="52" name="Net-(U14-Pad28)">
+      <node ref="U14" pin="28"/>
+    </net>
+    <net code="53" name="Net-(U14-Pad26)">
+      <node ref="U14" pin="26"/>
+    </net>
+    <net code="54" name="Net-(U14-Pad24)">
+      <node ref="U14" pin="24"/>
+    </net>
+    <net code="55" name="Net-(U3-Pad22)">
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="56" name="Net-(U14-Pad9)">
+      <node ref="U14" pin="9"/>
+    </net>
+    <net code="57" name="Net-(U14-Pad38)">
+      <node ref="U14" pin="38"/>
+    </net>
+    <net code="58" name="Net-(U14-Pad37)">
+      <node ref="U14" pin="37"/>
+    </net>
+    <net code="59" name="3.3vDriverNode">
+      <node ref="U19" pin="1"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U14" pin="4"/>
+    </net>
+    <net code="60" name="Net-(U14-Pad23)">
+      <node ref="U14" pin="23"/>
+    </net>
+    <net code="61" name="Net-(U14-Pad25)">
+      <node ref="U14" pin="25"/>
+    </net>
+    <net code="62" name="Net-(U14-Pad27)">
+      <node ref="U14" pin="27"/>
+    </net>
+    <net code="63" name="Net-(U14-Pad29)">
+      <node ref="U14" pin="29"/>
+    </net>
+    <net code="64" name="Net-(U14-Pad31)">
+      <node ref="U14" pin="31"/>
+    </net>
+    <net code="65" name="Net-(U14-Pad33)">
+      <node ref="U14" pin="33"/>
+    </net>
+    <net code="66" name="canTxDrNd">
+      <node ref="U13" pin="0"/>
+      <node ref="U14" pin="35"/>
+    </net>
+    <net code="67" name="canRxDrNd">
+      <node ref="U14" pin="36"/>
+      <node ref="U13" pin="1"/>
+    </net>
+    <net code="68" name="CANH">
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U15" pin="5"/>
+      <node ref="U13" pin="5"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="69" name="com3">
+      <node ref="U12" pin="13"/>
+      <node ref="U17" pin="4"/>
+    </net>
+    <net code="70" name="GND">
+      <node ref="U8" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U2" pin="39"/>
+      <node ref="U2" pin="40"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U12" pin="39"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U12" pin="40"/>
+      <node ref="U11" pin="6"/>
+      <node ref="U22" pin="4"/>
+      <node ref="U17" pin="2"/>
+      <node ref="U16" pin="2"/>
+      <node ref="U15" pin="2"/>
+      <node ref="U19" pin="0"/>
+      <node ref="U20" pin="3"/>
+      <node ref="U16" pin="5"/>
+      <node ref="U3" pin="40"/>
+      <node ref="U5" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U14" pin="39"/>
+      <node ref="U14" pin="40"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U13" pin="2"/>
+      <node ref="U3" pin="39"/>
+    </net>
+    <net code="71" name="SCLdac">
+      <node ref="U16" pin="3"/>
+      <node ref="U12" pin="38"/>
+    </net>
+    <net code="72" name="SDAdac">
+      <node ref="U16" pin="4"/>
+      <node ref="U12" pin="37"/>
+    </net>
+    <net code="73" name="Net-(U14-Pad13)">
+      <node ref="U14" pin="13"/>
+    </net>
+    <net code="74" name="CANL">
+      <node ref="U10" pin="4"/>
+      <node ref="U13" pin="4"/>
+      <node ref="U15" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="75" name="3.3vDACNode">
+      <node ref="U15" pin="3"/>
+      <node ref="U12" pin="4"/>
+      <node ref="U17" pin="1"/>
+      <node ref="U16" pin="1"/>
+    </net>
+    <net code="76" name="canRxcomp">
+      <node ref="U12" pin="36"/>
+      <node ref="U15" pin="1"/>
+    </net>
+    <net code="77" name="oledSCL">
+      <node ref="U19" pin="2"/>
+      <node ref="U14" pin="15"/>
+    </net>
+    <net code="78" name="oledSDA">
+      <node ref="U19" pin="3"/>
+      <node ref="U14" pin="16"/>
+    </net>
+    <net code="79" name="outEnc">
+      <node ref="U12" pin="34"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="80" name="Net-(U20-Pad2)">
+      <node ref="U20" pin="2"/>
+    </net>
+    <net code="81" name="3.3vbridgeNode">
+      <node ref="U20" pin="5"/>
+      <node ref="U20" pin="7"/>
+    </net>
+    <net code="82" name="Net-(U20-Pad6)">
+      <node ref="U20" pin="6"/>
+    </net>
+    <net code="83" name="SCL">
+      <node ref="U2" pin="38"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="84" name="SDA">
+      <node ref="U5" pin="4"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U2" pin="37"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="85" name="wifiTx">
+      <node ref="U20" pin="4"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="86" name="Net-(J2-Pad1)">
+      <node ref="U22" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="87" name="wifiRx">
+      <node ref="U20" pin="0"/>
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="88" name="Net-(U20-Pad1)">
+      <node ref="U20" pin="1"/>
+    </net>
+    <net code="89" name="Net-(U3-Pad34)">
+      <node ref="U3" pin="34"/>
+    </net>
+    <net code="90" name="Net-(U3-Pad23)">
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="91" name="Net-(U3-Pad21)">
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="92" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="93" name="Net-(U3-Pad17)">
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="94" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="95" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="96" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="97" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="98" name="Net-(U3-Pad25)">
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="99" name="Net-(U3-Pad33)">
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="100" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="101" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="102" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="103" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="104" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="105" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="106" name="Net-(U14-Pad11)">
+      <node ref="U14" pin="11"/>
+    </net>
+    <net code="107" name="Net-(U14-Pad19)">
+      <node ref="U14" pin="19"/>
+    </net>
+    <net code="108" name="Net-(U14-Pad17)">
+      <node ref="U14" pin="17"/>
+    </net>
+    <net code="109" name="Net-(U14-Pad21)">
+      <node ref="U14" pin="21"/>
+    </net>
+    <net code="110" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="111" name="Net-(U3-Pad30)">
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="112" name="Net-(U3-Pad32)">
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="113" name="Net-(U3-Pad29)">
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="114" name="Net-(U3-Pad31)">
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="115" name="Net-(U3-Pad27)">
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="116" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U22" pin="2"/>
+    </net>
+    <net code="117" name="canTX">
+      <node ref="U1" pin="0"/>
+      <node ref="U2" pin="35"/>
+    </net>
+    <net code="118" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="119" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="120" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="121" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="122" name="Net-(U11-Pad1)">
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="123" name="Net-(U11-Pad2)">
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="124" name="Net-(U11-Pad3)">
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="125" name="Net-(U11-Pad7)">
+      <node ref="U11" pin="7"/>
+    </net>
+    <net code="126" name="Net-(U11-Pad8)">
+      <node ref="U11" pin="8"/>
+    </net>
+    <net code="127" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="128" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="129" name="Net-(U2-Pad32)">
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="130" name="Net-(U2-Pad20)">
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="131" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="132" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="133" name="Net-(U2-Pad33)">
+      <node ref="U2" pin="33"/>
+    </net>
+    <net code="134" name="Net-(U2-Pad29)">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="135" name="Net-(U2-Pad27)">
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="136" name="Net-(U2-Pad25)">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="137" name="Net-(U2-Pad34)">
+      <node ref="U2" pin="34"/>
+    </net>
+    <net code="138" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="139" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="140" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="141" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="142" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="143" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="144" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="145" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="146" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="147" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="148" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="149" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="150" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="151" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="152" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="153" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="154" name="Net-(U2-Pad26)">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="155" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="156" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="157" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="158" name="canRX">
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="159" name="3.3vUlSo">
+      <node ref="U5" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="160" name="canRxGpsNode">
+      <node ref="U3" pin="36"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="161" name="canTxGpsNode">
+      <node ref="U10" pin="0"/>
+      <node ref="U3" pin="35"/>
+    </net>
+    <net code="162" name="gpsTxGpsNode">
+      <node ref="U3" pin="38"/>
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="163" name="gpsRxGpsNode">
+      <node ref="U11" pin="5"/>
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="164" name="compSCL">
+      <node ref="U4" pin="0"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="165" name="compSCA">
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="166" name="5v">
+      <node ref="U3" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U12" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U22" pin="3"/>
+      <node ref="U14" pin="2"/>
+    </net>
+    <net code="167" name="canTxcomp">
+      <node ref="U15" pin="0"/>
+      <node ref="U12" pin="35"/>
+    </net>
+    <net code="168" name="3.3vGPSNode">
+      <node ref="U11" pin="0"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U3" pin="4"/>
+    </net>
+  </nets>
+</export>

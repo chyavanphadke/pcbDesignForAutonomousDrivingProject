@@ -1,0 +1,25 @@
+Reference, Value, Footprint, Datasheet
+U2,SJ2Board,Connector_PinHeader_2.54mm:PinHeader_2x020_P2.54mm_Vertical,
+U7,ultrasonic,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+U6,ultrasonic,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+U8,ultrasonic,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+U9,ultrasonic,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+U12,SJ2Board,Connector_PinHeader_2.54mm:PinHeader_2x020_P2.54mm_Vertical,
+U1,can,,
+U3,SJ2Board,Connector_PinHeader_2.54mm:PinHeader_2x020_P2.54mm_Vertical,
+U11,GPSModule,Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical,
+U10,can,,
+U4,Compass,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
+U14,SJ2Board,Connector_PinHeader_2.54mm:PinHeader_2x020_P2.54mm_Vertical,
+U13,can,,
+U15,can,,
+U17,motorTransceiver,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+U16,DAC,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,
+U22,12vto5v,,
+J2,Jack-DC,,~
+U20,ESP8266,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,
+U5,ultrasonic,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+J1,Wheel Encoder,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+U19,OLED,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+J3,CanHL,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
+J4,Input,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~
