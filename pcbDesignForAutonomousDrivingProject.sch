@@ -741,10 +741,10 @@ Wire Wire Line
 Text GLabel 7600 5500 2    39   Input ~ 0
 3.3vDriverNode
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J4
 U 1 1 60946026
 P 9650 1650
-F 0 "J?" H 9730 1642 50  0000 L CNN
+F 0 "J4" H 9730 1642 50  0000 L CNN
 F 1 "Input" H 9730 1551 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9650 1650 50  0001 C CNN
 F 3 "~" H 9650 1650 50  0001 C CNN
